@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="blockChainManager.Block">
+    <Position X="1.5" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="blockChainManager.BlockChainManager&lt;T&gt;">
+    <Position X="10" Y="0.5" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>AAAiICABAAAAAAAAAAAAAAIAAAAQAEQAIAgAAAAAAAA=</HashCode>
+      <FileName>blockChainManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="blockChain" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="blockChainManager.DataBlock&lt;T&gt;">
+    <Position X="6.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="blockChainManager.BaseBlockInfo">
+    <Position X="4" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseBlockInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="blockChainManager.BlockChain&lt;T&gt;">
+    <Position X="4.25" Y="1" Width="2.5" />
+    <AssociationLine Name="dataBlocks" Type="blockChainManager.DataBlock&lt;T&gt;">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.265" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAQAAAAAAAAAAAgAAAAgAAAABAA=</HashCode>
+      <FileName>blockChainManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="blocks" />
+      <Field Name="dataBlocks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="blockChainManager.IBlockChainManager&lt;T&gt;">
+    <Position X="10" Y="4.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blockChainManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
