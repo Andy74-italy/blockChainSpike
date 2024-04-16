@@ -4,7 +4,7 @@
 
 /.vs
 /_src/.vs
-/_src/blockChainManager/bin/Debug/net8.0
+/_src/blockChainManager/bin
 /_src/blockChainManager/obj
 /_src/blockChainManagerTests/bin
 /_src/blockChainManagerTests/obj
